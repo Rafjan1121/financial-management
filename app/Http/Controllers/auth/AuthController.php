@@ -12,19 +12,19 @@ class AuthController extends Controller
      * Feel free to change these emails/passwords/names.
      */
     protected array $demoUsers = [
-        'admin@financial.com' => [
+        'admin@gmail.com' => [
             'password' => 'admin123',
             'role'     => 'admin',
             'name'     => 'Admin User',
             'initials' => 'AD',
         ],
-        'manager@financial.com' => [
+        'manager@gmail.com' => [
             'password' => 'manager123',
             'role'     => 'manager',
             'name'     => 'Financial Manager',
             'initials' => 'FM',
         ],
-        'staff@financial.com' => [
+        'staff@gmail.com' => [
             'password' => 'staff123',
             'role'     => 'staff',
             'name'     => 'Financial Staff',
