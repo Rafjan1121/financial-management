@@ -16,7 +16,7 @@
                     <span class="brand-icon">💰</span>
                     <span class="brand-name">Holiday & Travel<br>Inc.   </span>
                 </div>
-                <div class="brand-subtitle">FINANCIAL MANAGEMENT SYSTEM</div>
+                <div class="brand-subtitle">RAF MANAGEMENT SYSTEM</div>
             </div>
  
             <div class="menu-section">
