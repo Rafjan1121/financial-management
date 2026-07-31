@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 50%, #fff7ed 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.login-card {
+    background: white;
+    width: 100%;
+    max-width: 460px;
+    padding: 48px 48px 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.logo-circle {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 2px solid #fdba74;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: white;
+    font-size: 42px;
+}
+
+.logo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.company-name {
+    font-size: 30px;
+    font-weight: 800;
+    color: #1e3a8a;
+    margin-bottom: 4px;
+}
+
+.company-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f97316;
+    margin-bottom: 18px;
+}
+
+.portal-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #94a3b8;
+    margin-bottom: 32px;
+}
+
+.error-box {
+    background: #fee2e2;
+    color: #dc2626;
+    border: 1px solid #fca5a5;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 22px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1e3a8a;
+    margin-bottom: 8px;
+}
+
+.password-label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.password-label-row label {
+    margin-bottom: 0;
+}
+
+.password-hint {
+    font-size: 12px;
+    font-weight: 500;
+    color: #60a5fa;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    background: #f9fafb;
+    transition: border-color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group input:focus {
+    border-color: #f97316;
+    background: white;
+}
+
+.form-group input::placeholder {
+    color: #cbd5e1;
+}
+
+.btn-authenticate {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    transition: opacity 0.3s;
+}
+
+.btn-authenticate:hover {
+    opacity: 0.9;
+}
+
+.btn-quick-preview {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background: #f9fafb;
+    color: #1e3a8a;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-quick-preview:hover {
+    background: #f1f5f9;
+}
+
+@media (max-width: 500px) {
+    .login-card {
+        padding: 36px 28px 32px;
+    }
+
+    .company-name {
+        font-size: 24px;
+    }
+}
