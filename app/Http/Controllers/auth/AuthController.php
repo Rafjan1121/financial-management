@@ -7,10 +7,7 @@ use Illuminate\Http\Request;
  
 class AuthController extends Controller
 {
-    /**
-     * The 3 demo accounts — no database needed yet.
-     * Feel free to change these emails/passwords/names.
-     */
+    
     protected array $demoUsers = [
         'admin@gmail.com' => [
             'password' => 'admin123',
